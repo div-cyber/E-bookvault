@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Heart, Twitter, Github, Mail } from 'lucide-react';
+import { BookOpen, Twitter, Github, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -121,9 +121,8 @@ const Footer: React.FC = () => {
             © 2024 ReadVault. All rights reserved.
           </p>
           <p className="text-dark-400 text-sm flex items-center space-x-1 mt-4 md:mt-0">
-            <span>Made with</span>
-            <Heart className="h-4 w-4 text-red-500 fill-current" />
-            <span>for book lovers everywhere</span>
+            <span>Made By</span>
+            <span>BlackBytes</span>
           </p>
         </div>
       </div>
